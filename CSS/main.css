@@ -1,0 +1,44 @@
+/* ESTILOS PRINCIPALES*/
+body {
+    font-family: Segoe UI;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-color: black;
+}
+.footer {
+    background-color: black;
+    color: white;
+}
+
+#titulo-web {
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+iframe {
+    width: 100%;
+    height: 750px;
+    border: none;
+}
+.logo {
+    justify-content: right;
+    width: 100px;
+    margin-right: 10px;
+}
+.div-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* PIE DE PÁGINA */
+#pieDePagina {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}

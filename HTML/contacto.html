@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - ERA Tecnológica</title>
+</head>
+<body>
+    <header>
+        <h1 align="center">Contacta con nosotros</h1>
+    </header>
+    <main>
+        <form id="formularioSolicitudContacto">
+            <fieldset id="fieldset-formularioSolicitudContacto">
+                <legend>Formulario de contacto</legend>
+                <fieldset id="fieldset-formularioDatosUsuario">
+                    <legend>Datos de usuario</legend>
+
+                        <label for="nombreCompleto">Nombre: </label>
+                        <input name="nombreCompleto" id="nombreCompleto" type="text">
+
+                        <label for="correo">Correo electronico: </label>
+                        <input name="correo" id="correo" type="email" placeholder="ejemplo@gmail.com">
+
+                        <label for="fechaNacimiento">Fecha de nacimiento: </label>
+                        <input name="contrasena" id="fechaNacimiento" type="date">
+                </fieldset>
+                        <div id="solicitudContacto">
+                            <label id="solicitudContacto" for="solicitudContacto">Solicitud:</label>
+                            <br>
+                            <center>
+                                <textarea id="solicitudContacto" style="width: 80%; height: 120px;"></textarea>
+                            </center>
+                        </div>
+                        <div id="Enviar" align="center">
+                            <button name="enviarInformacionRegistro">Enviar</button>
+                        </div>
+                </fieldset>
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>
