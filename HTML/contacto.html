@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto - ERA Tecnológica</title>
+    <meta name="author" content="Adrián Blanco">
+    <meta name="author" content="Erik Corraliza">
+    <meta name="author" content="Raúl Sanguino">
+    <link rel="stylesheet" href="../CSS/contacto.css">
 </head>
 <body>
     <header>
@@ -16,25 +20,33 @@
                 <fieldset id="fieldset-formularioDatosUsuario">
                     <legend>Datos de usuario</legend>
 
-                        <label for="nombreCompleto">Nombre: </label>
-                        <input name="nombreCompleto" id="nombreCompleto" type="text">
+                        <label for="nombreCompleto">Nombre completo: </label>
+                        <input name="nombreCompleto" id="nombreCompleto" type="text"><br><br>
 
                         <label for="correo">Correo electronico: </label>
-                        <input name="correo" id="correo" type="email" placeholder="ejemplo@gmail.com">
+                        <input name="correo" id="correo" type="email" placeholder="ejemplo@gmail.com"><br><br>
 
-                        <label for="fechaNacimiento">Fecha de nacimiento: </label>
-                        <input name="contrasena" id="fechaNacimiento" type="date">
+                        <laber for="opinion" id="opinion">¿Qué opinas de nuestra web?</label>
+                        <select name="opinion" id="opinion">
+                            <option value="muyBuena">Muy buena</option>
+                            <option value="buena">Buena</option>
+                            <option value="regular">Regular</option>
+                            <option value="mala">Mala</option>
+                        </select>
+
                 </fieldset>
                         <div id="solicitudContacto">
-                            <label id="solicitudContacto" for="solicitudContacto">Solicitud:</label>
+                            <label id="solicitudContacto" for="solicitudContacto">Cuerpo del mensaje:</label>
                             <br>
                             <center>
                                 <textarea id="solicitudContacto" style="width: 80%; height: 120px;"></textarea>
                             </center>
                         </div>
-                        <div id="Enviar" align="center">
+                        <div id="Botones" align="center">
                             <button name="enviarInformacionRegistro">Enviar</button>
+                            <button name="limpiarInformacionRegistro">Limpiar</button>
                         </div>
+                    
                 </fieldset>
             </fieldset>
         </form>

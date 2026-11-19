@@ -4,8 +4,11 @@ body {
     padding: 0;
 }
 table {
-    margin: 5px;
-    padding: 10px;
-    border: 1;
-    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 100%;
+    margin-right: 100px;
 }
